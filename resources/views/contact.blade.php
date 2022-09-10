@@ -1,3 +1,3 @@
 <x-layouts.master>
-new page!
+    <livewire:contact-form />
 </x-layouts.master>
