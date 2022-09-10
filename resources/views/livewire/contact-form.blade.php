@@ -1,8 +1,5 @@
 <section class="mb-32 text-gray-800">
-    <div class="relative overflow-hidden bg-no-repeat bg-cover"
-         style="background-position: 50%; background-image: url('https://mdbootstrap.com/img/new/textures/full/284.jpg'); height: 300px;">
-    </div>
-    <div class="container text-gray-800 px-4 md:px-12">
+    <div class="ml-auto mr-auto container text-gray-800 px-4 md:px-12">
         <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6"
              style="margin-top: -100px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
             <div class="flex flex-wrap">
@@ -107,7 +104,7 @@
                             </div>
                         </a>
 
-                        <a href="#" class="mb-12 md:mb-0 grow-0 hover:opacity-80 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
+                        <a href="mailto:pconte@example.com" class="mb-12 md:mb-0 grow-0 hover:opacity-80 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                             <div class="flex align-start">
                                 <div class="shrink-0">
                                     <div class="p-4 bg-yellow-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
