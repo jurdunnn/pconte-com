@@ -1,7 +1,18 @@
 <section class="mb-32 text-gray-800">
+
     <div class="ml-auto mr-auto container text-gray-800 px-4 md:px-12">
         <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6"
              style="margin-top: -100px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
+            <div class="text-center md:max-w-xl lg:max-w-3xl mx-auto">
+                <h3 class="text-3xl font-bold mb-6 text-gray-800">Contact</h3>
+                <p class="mb-6 pb-2 md:mb-12 md:pb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam
+                    iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum
+                    porro a pariatur veniam.
+
+                </p>
+            </div>
+
             <div class="flex flex-wrap">
                 <div class="grow-0 shrink-0 basis-auto w-full xl:w-5/12 px-3 lg:px-6 mb-12 xl:mb-0">
                     <form>

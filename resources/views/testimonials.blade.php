@@ -25,7 +25,7 @@
                                 />
                         </div>
                         <h5 class="text-xl font-semibold mb-4">Maria Smantha</h5>
-                        <h6 class="font-semibold text-blue-600 mb-4">Web Developer</h6>
+                        <h6 class="font-semibold text-yellow-600 mb-4">Web Developer</h6>
                         <p class="mb-4">
                             <svg
                                 aria-hidden="true"
@@ -146,7 +146,7 @@
                                 />
                         </div>
                         <h5 class="text-xl font-semibold mb-4">Lisa Cudrow</h5>
-                        <h6 class="font-semibold text-blue-600 mb-4">Graphic Designer</h6>
+                        <h6 class="font-semibold text-yellow-600 mb-4">Graphic Designer</h6>
                         <p class="mb-4">
                             <svg
                                 aria-hidden="true"
@@ -264,7 +264,7 @@
                                 />
                         </div>
                         <h5 class="text-xl font-semibold mb-4">John Smith</h5>
-                        <h6 class="font-semibold text-blue-600 mb-4">Marketing Specialist</h6>
+                        <h6 class="font-semibold text-yellow-600 mb-4">Marketing Specialist</h6>
                         <p class="mb-4">
                             <svg
                                 aria-hidden="true"
