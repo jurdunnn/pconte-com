@@ -27,7 +27,7 @@
             </div>
         </div>
 
-        <p class="text-[1.5rem] mt-4 leading-8 text-center">
+        <p class="text-[1.5rem] font-light mt-4 leading-8 text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat.
         </p>
         <button
