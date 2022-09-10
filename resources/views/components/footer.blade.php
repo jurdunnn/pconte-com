@@ -111,6 +111,6 @@
 
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
     Built by
-    <a class="text-white" target="_blank" href="https://www.linkedin.com/in/jordan-downs-5a546a104/">Jordan Downs</a>
+    <a class="text-white font-semibold" target="_blank" href="https://www.linkedin.com/in/jordan-downs-5a546a104/">Jordan Downs</a>
   </div>
 </footer>
