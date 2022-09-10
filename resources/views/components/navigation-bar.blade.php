@@ -1,5 +1,5 @@
 <nav
-  class="relative w-full flex flex-wrap items-center justify-between bg-gray-900 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light"
+  class="relative w-full flex flex-wrap items-center justify-between bg-gray-700 dark:bg-gray-800 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light"
 >
   <div class="container-fluid h-full w-full  flex flex-wrap items-center justify-between px-20">
     <button
@@ -28,23 +28,23 @@
         ></path>
       </svg>
     </button>
-    <div class="collapse  navbar-collapse flex-grow items-center" id="navbarSupportedContent1">
-      <a class="text-xl text-white pr-2 font-semibold" href="#">Pconte</a>
+    <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent1">
+      <a class="text-xl text-white pr-2 font-bold" href="#">Pconte</a>
       <!-- Left links -->
-      <ul class="navbar-nav ml-auto flex flex-col pl-0 list-style-none">
-        <li class="nav-item py-9 px-4">
-          <a class="nav-link text-white" href="#">Services</a>
+      <ul class="navbar-nav ml-auto flex flex-col font-semibold pl-0 list-style-none">
+        <li class="nav-item py-9 px-4 bg-black bg-opacity-25 text-yellow-500">
+          <a class="nav-link" href="#">Services</a>
         </li>
         <li class="nav-item py-9 px-4">
           <a
-            class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
+            class="nav-link text-white hover:text-yellow-500 p-0"
             href="#"
             >Testimonials</a
           >
         </li>
         <li class="nav-item py-9 px-4 mr-2">
           <a
-            class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
+            class="nav-link text-white hover:text-yellow-500 p-0"
             href="#"
             >Contact</a
 
@@ -54,7 +54,7 @@
       <!-- Left links -->
     </div>
     
-    <div class="flex items-center relative">
+    <div class="collapse navbar-collapse flex items-center relative">
       <div class="dropdown relative mr-4">
           <x-night-switch />
       </div>
