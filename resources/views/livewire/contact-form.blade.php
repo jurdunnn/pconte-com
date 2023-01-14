@@ -12,45 +12,45 @@
                         <div class="form-group mb-6">
                             <input
                                 type="text"
-                                wire:model="name"
+                                wire:model="form.name"
                                 class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                                 id="exampleInput7"
                                 placeholder="Name"
                                 >
-                                @error('name') <span class="error">{{ $message }}</span> @enderror
+                                @error('form.name') <span class="error">{{ $message }}</span> @enderror
                         </div>
 
                         <div class="form-group mb-6">
                             <input
                                 type="email"
-                                wire:model="email"
+                                wire:model="form.email"
                                 class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                                 id="exampleInput8"
                                 placeholder="Email address"
                                 >
-                                @error('email') <span class="error">{{ $message }}</span> @enderror
+                                @error('form.email') <span class="error">{{ $message }}</span> @enderror
                         </div>
 
                         <div class="form-group mb-6">
                             <input
                                 type="text"
-                                wire:model="bookingReference"
+                                wire:model="form.reference"
                                 class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                                 id="exampleInput20"
-                                placeholder="Booking Reference"
+                                placeholder="Booking Reference (Optional)"
                                 >
-                                @error('bookingReference') <span class="error">{{ $message }}</span> @enderror
+                                @error('form.reference') <span class="error">{{ $message }}</span> @enderror
                         </div>
 
                         <div class="form-group mb-6">
                             <textarea
                                 type="text"
-                                wire:model="message"
+                                wire:model="form.message"
                                 class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                                 id="exampleFormControlTextarea13"
                                 rows="3"
                                 placeholder="Message"></textarea>
-                                @error('message') <span class="error">{{ $message }}</span> @enderror
+                                @error('form.message') <span class="error">{{ $message }}</span> @enderror
                         </div>
 
                         <div class="form-group form-check text-center mb-6">

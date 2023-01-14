@@ -8,17 +8,19 @@ use Livewire\Component;
 
 class ContactForm extends Component
 {
-    public $name;
-    public $email;
-    public $bookingReference;
-    public $message;
+    public Contact $form;
 
     protected $rules = [
-        'name' => 'required|string',
-        'email' => 'required|email',
-        'bookingReference' => 'nullable|string',
-        'message' => 'required|string|max:255',
+        'form.name' => 'required|string',
+        'form.email' => 'required|email',
+        'form.reference' => 'nullable|string',
+        'form.message' => 'required|string|max:255',
     ];
+
+    public function mount()
+    {
+        $this->form = new Contact();
+    }
 
     public function render()
     {
@@ -31,11 +33,6 @@ class ContactForm extends Component
     {
         $this->validate();
 
-        Contact::create([
-            'name' => $this->name,
-            'email' => $this->email,
-            'reference' => $this->bookingReference,
-            'message' => $this->message
-        ]);
+        $this->form->save();
     }
 }
