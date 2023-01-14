@@ -1,24 +1,19 @@
-<section class="mb-32 text-gray-800">
-
+@section('content')
+<div class="mb-32 text-gray-800">
     <div class="ml-auto mr-auto container text-gray-800 px-4 md:px-12">
         <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6"
              style="margin-top: -100px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
             <div class="text-center md:max-w-xl lg:max-w-3xl mx-auto">
-                <h3 class="text-3xl font-bold mb-6 text-gray-800">Contact</h3>
-                <p class="mb-6 pb-2 md:mb-12 md:pb-0">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam
-                    iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum
-                    porro a pariatur veniam.
-
-                </p>
+                <h3 class="text-3xl font-bold mb-6 pb-2 md:mb-12 md:pb-0 text-gray-800">Contact</h3>
             </div>
 
             <div class="flex flex-wrap">
                 <div class="grow-0 shrink-0 basis-auto w-full xl:w-5/12 px-3 lg:px-6 mb-12 xl:mb-0">
-                    <form>
+                    <form wire:submit="submitForm()">
                         <div class="form-group mb-6">
                             <input
                                 type="text"
+                                wire:model="name"
                                 class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                                 id="exampleInput7"
                                 placeholder="Name"
@@ -28,6 +23,7 @@
                         <div class="form-group mb-6">
                             <input
                                 type="email"
+                                wire:model="email"
                                 class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                                 id="exampleInput8"
                                 placeholder="Email address"
@@ -37,6 +33,7 @@
                         <div class="form-group mb-6">
                             <input
                                 type="text"
+                                wire:model"reference"
                                 class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                                 id="bookingReference"
                                 placeholder="Booking Reference (Optional)"
@@ -45,10 +42,12 @@
 
                         <div class="form-group mb-6">
                             <textarea
+                                type="text"
+                                wire:model="message"
                                 class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                                 id="exampleFormControlTextarea13"
                                 rows="3"
-                                placeholder="Message" ></textarea>
+                                placeholder="Message"></textarea>
                         </div>
 
                         <div class="form-group form-check text-center mb-6">
@@ -160,4 +159,5 @@
             </div>
         </div>
     </div>
-</section>
+</div>
+@endsection

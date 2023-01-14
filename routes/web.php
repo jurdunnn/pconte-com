@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Livewire\ContactForm;
+use App\Http\Livewire\TestimonialsIndex;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,11 +23,6 @@ Route::get('/services', function () {
     return view('services');
 })->name('services');
 
-Route::get('/testimonials', function () {
-    return view('testimonials');
-})->name('testimonials');
+Route::get('/testimonials', TestimonialsIndex::class)->name('testimonials');
 
-Route::get('/contact', function () {
-    return view('contact');
-})->name('contact');
-
+Route::get('/contact', ContactForm::class)->name('contact');

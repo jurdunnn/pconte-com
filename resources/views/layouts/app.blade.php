@@ -8,9 +8,16 @@
         <script defer src="https://unpkg.com/alpinejs@3.10.3/dist/cdn.min.js"></script>
     </head>
     <body x-cloak class="antialiased dark:bg-gray-900 dark:text-gray-100 bg-gray-100 text-gray-900">
-        <x-navigation-bar />
+        @section('navigation-bar')
+            <x-navigation-bar />
+        @show
 
-        {{ $slot }}
+        @section('masthead-image')
+        <div class="relative overflow-hidden bg-no-repeat bg-cover"
+             style="background-position: 50%; background-image: url('https://mdbootstrap.com/img/new/textures/full/284.jpg'); height: 300px;">
+        </div>
+        @show
 
+        @yield('content')
     </body>
 </html>

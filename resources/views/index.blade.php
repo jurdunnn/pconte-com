@@ -1,4 +1,9 @@
-<x-layouts.master>
+@extends('layouts.app')
+
+@section('masthead-image')
+@endsection
+
+@section('content')
     <div class="absolute flex flex-col text-5xl text-white top-1/2 left-1/2 gap-y-6 -translate-x-1/2 -translate-y-[19rem]">
         <div class="relative ml-auto mr-auto w-24 h-24">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-full h-full">
@@ -42,4 +47,4 @@
         <img src="{{ asset('images/image') }}" class="min-w-screen min-h-screen object-none" />
         <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-gray-600 dark:bg-black opacity-80"></div>
     </div>
-</x-layouts.master>
+@endsection

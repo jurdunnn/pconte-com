@@ -1,5 +1,9 @@
-<x-layouts.master>
+@extends('layouts.app')
 
+@section('masthead-image')
+@endsection
+
+@section('content')
     <x-fs-content-block>
         <div class="max-w-7xl max-h-2xl w-4/5 mx-auto rounded-2xl text-gray-700 md:-mt-40 p-8 bg-white shadow-md flex flex-col md:flex-row ">
             <h1 class="font-bold text-2xl w-full p-2 text-center text-gray-800">
@@ -49,5 +53,4 @@
     <x-fs-content-block>
         <h1>This is a test</h1>
     </x-fs-content-block>
-
-</x-layouts.master>
+@endsection
