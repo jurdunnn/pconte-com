@@ -9,6 +9,7 @@ use Livewire\Component;
 class ContactForm extends Component
 {
     public Contact $form;
+    public bool $success;
 
     protected $rules = [
         'form.name' => 'required|string',
@@ -20,6 +21,8 @@ class ContactForm extends Component
     public function mount()
     {
         $this->form = new Contact();
+
+        $this->success = false;
     }
 
     public function render()
@@ -34,5 +37,9 @@ class ContactForm extends Component
         $this->validate();
 
         $this->form->save();
+
+        $this->form = new Contact();
+
+        $this->success = true;
     }
 }

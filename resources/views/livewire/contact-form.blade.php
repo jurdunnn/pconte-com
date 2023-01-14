@@ -5,7 +5,7 @@
 
     <div class="flex flex-wrap">
         <div class="grow-0 shrink-0 basis-auto w-full xl:w-5/12 px-3 lg:px-6 mb-12 xl:mb-0">
-            <form wire:submit="submit">
+            <form wire:submit.prevent="submit">
                 <div class="form-group mb-6">
                     <input
                         type="text"
@@ -64,6 +64,15 @@
                         Send me a copy of this message
                     </label>
                 </div>
+
+                @if($success)
+                    <div class="flex gap-x-1">
+                        <x-heroicon-s-check-badge class="h-5 success mt-[.2rem]" />
+
+                        <h2 class="text-lg mb-2 pb-1 success">Message sent successfully</h2>
+                    </div>
+                @endif
+
                 <button
                     type="submit"
                     class="w-full px-6 py-2.5 bg-yellow-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-700 hover:shadow-lg focus:bg-yellow-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-800 active:shadow-lg transition duration-150 ease-in-out"
