@@ -16,10 +16,9 @@ return new class extends Migration
         Schema::create('testimonials', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('profile_picture_url')->nullable(true);
             $table->string('name');
             $table->string('location');
-            $table->text('testimonial');
+            $table->string('testimonial');
             $table->boolean('hidden')->default(true);
         });
     }
