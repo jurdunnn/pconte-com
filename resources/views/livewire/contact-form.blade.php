@@ -1,4 +1,3 @@
-@section('content')
 <div class="mb-32 text-gray-800">
     <div class="ml-auto mr-auto container text-gray-800 px-4 md:px-12">
         <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6"
@@ -9,7 +8,7 @@
 
             <div class="flex flex-wrap">
                 <div class="grow-0 shrink-0 basis-auto w-full xl:w-5/12 px-3 lg:px-6 mb-12 xl:mb-0">
-                    <form wire:submit="submitForm()">
+                    <form wire:submit="submit">
                         <div class="form-group mb-6">
                             <input
                                 type="text"
@@ -18,6 +17,7 @@
                                 id="exampleInput7"
                                 placeholder="Name"
                                 >
+                                @error('name') <span class="error">{{ $message }}</span> @enderror
                         </div>
 
                         <div class="form-group mb-6">
@@ -28,16 +28,18 @@
                                 id="exampleInput8"
                                 placeholder="Email address"
                                 >
+                                @error('email') <span class="error">{{ $message }}</span> @enderror
                         </div>
 
                         <div class="form-group mb-6">
                             <input
                                 type="text"
-                                wire:model"reference"
+                                wire:model="bookingReference"
                                 class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
-                                id="bookingReference"
-                                placeholder="Booking Reference (Optional)"
+                                id="exampleInput20"
+                                placeholder="Booking Reference"
                                 >
+                                @error('bookingReference') <span class="error">{{ $message }}</span> @enderror
                         </div>
 
                         <div class="form-group mb-6">
@@ -48,6 +50,7 @@
                                 id="exampleFormControlTextarea13"
                                 rows="3"
                                 placeholder="Message"></textarea>
+                                @error('message') <span class="error">{{ $message }}</span> @enderror
                         </div>
 
                         <div class="form-group form-check text-center mb-6">
@@ -160,4 +163,3 @@
         </div>
     </div>
 </div>
-@endsection

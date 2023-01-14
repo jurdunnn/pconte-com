@@ -8,36 +8,33 @@ use Livewire\Component;
 
 class ContactForm extends Component
 {
-    public String $name, $email, $reference, $message;
+    public $name;
+    public $email;
+    public $bookingReference;
+    public $message;
 
     protected $rules = [
         'name' => 'required|string',
         'email' => 'required|email',
-        'reference' => 'string',
-        'message' => 'required|string',
+        'bookingReference' => 'nullable|string',
+        'message' => 'required|string|max:255',
     ];
-
-    public function mount()
-    {
-        $this->name = '';
-        $this->email = '';
-        $this->reference = '';
-        $this->message = '';
-    }
 
     public function render()
     {
-        return view('livewire.contact-form');
+        return view('livewire.contact-form')
+            ->extends('layouts.app')
+            ->section('content');
     }
 
-    public function submitForm()
+    public function submit()
     {
-        $this->validate([$this->name]);
+        $this->validate();
 
         Contact::create([
             'name' => $this->name,
             'email' => $this->email,
-            'reference' => $this->reference,
+            'reference' => $this->bookingReference,
             'message' => $this->message
         ]);
     }
