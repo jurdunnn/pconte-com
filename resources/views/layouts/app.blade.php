@@ -20,7 +20,7 @@
             </div>
         @show
 
-        <div class="ml-auto mr-auto container text-gray-800 px-4 md:px-12 text-gray-800">
+        <div class="ml-auto mr-auto container px-4 md:px-12 text-gray-700">
             <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6"
                  style="margin-top: -200px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
                 @yield('livewire-content')

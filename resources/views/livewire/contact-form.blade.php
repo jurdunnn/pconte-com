@@ -1,6 +1,6 @@
 <section>
     <div class="text-center md:max-w-xl lg:max-w-3xl mx-auto">
-        <h3 class="text-3xl font-bold mb-6 pb-2 md:mb-12 md:pb-0 text-gray-800">Contact</h3>
+        <h3 class="text-3xl font-bold mb-6 pb-2 md:mb-12 md:pb-0">Contact</h3>
     </div>
 
     <div class="flex flex-wrap">
@@ -10,7 +10,7 @@
                     <input
                         type="text"
                         wire:model="form.name"
-                        class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
+                        class="block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                         id="exampleInput7"
                         placeholder="Name"
                         >
@@ -21,7 +21,7 @@
                     <input
                         type="email"
                         wire:model="form.email"
-                        class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
+                        class="block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                         id="exampleInput8"
                         placeholder="Email address"
                         >
@@ -32,7 +32,7 @@
                     <input
                         type="text"
                         wire:model="form.reference"
-                        class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
+                        class="block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                         id="exampleInput20"
                         placeholder="Booking Reference (Optional)"
                         >
@@ -43,7 +43,7 @@
                     <textarea
                         type="text"
                         wire:model="form.message"
-                        class="block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
+                        class="block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-yellow-600 focus:outline-none"
                         id="exampleFormControlTextarea13"
                         rows="3"
                         placeholder="Message"></textarea>
@@ -58,7 +58,7 @@
                         checked
                         />
                     <label
-                        class="form-check-label inline-block text-gray-800"
+                        class="form-check-label inline-block"
                         for="exampleCheck87"
                         >
                         Send me a copy of this message
