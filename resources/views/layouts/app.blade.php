@@ -24,10 +24,15 @@
             <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6"
                  style="margin-top: -200px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
                 @yield('livewire-content')
+
             </div>
         </div>
 
         @yield('content')
+
+        @section('footer')
+            <x-footer />
+        @show
 
         <livewire:scripts />
     </body>
