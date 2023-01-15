@@ -3,7 +3,9 @@
     >
     <div class="container-fluid h-full w-full  flex flex-wrap items-center justify-between px-20">
         <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent1">
-            <a class="text-xl text-white pr-2 font-bold" href="{{ route('index') }}">Pconte</a>
+            <a class="text-xl text-white pr-2 font-bold" href="{{ route('index') }}">
+                <x-logo />
+            </a>
 
             <x-nav-links />
         </div>
