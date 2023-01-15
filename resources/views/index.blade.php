@@ -14,7 +14,12 @@
         <x-divider />
 
         <p class="font-light mt-4 leading-8 text-center text-lg lg:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat.
+            With over 45 years of experience, I am a highly skilled and knowledgeable professional who is dedicated to
+            providing the highest level of service to my clients. I am well-versed in all aspects of domestic electrical 
+            work, including wiring, lighting, and appliance installation and repair. My extensive experience and expertise
+            enable me to tackle even the most complex projects with confidence and skill. I am well-equipped to handle any
+            electrical need that may arise in a domestic setting, and I always strive to ensure that my clients are
+            completely satisfied with the work that I do.
         </p>
         <a
             href="{{ route('contact') }}"
