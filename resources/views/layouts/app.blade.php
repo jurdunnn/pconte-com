@@ -22,7 +22,7 @@
         @show
 
         @section('masthead-image')
-            <div class="relative overflow-hidden bg-no-repeat bg-cover"
+            <div class="invisible relative overflow-hidden bg-no-repeat bg-cover"
                  style="background-position: 50%; background-image: url('https://mdbootstrap.com/img/new/textures/full/284.jpg'); height: 300px;">
             </div>
         @show
