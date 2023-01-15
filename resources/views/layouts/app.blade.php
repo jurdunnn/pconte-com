@@ -8,6 +8,13 @@
         <script defer src="https://unpkg.com/alpinejs@3.10.3/dist/cdn.min.js"></script>
 
         <livewire:styles />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <style>
+            body {
+                font-family: 'Raleway', sans-serif;
+            }
+        </style>
     </head>
     <body x-cloak class="antialiased dark:bg-gray-900 dark:text-gray-100 bg-gray-100 text-gray-900">
         @section('navigation-bar')
