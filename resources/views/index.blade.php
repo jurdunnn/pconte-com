@@ -11,9 +11,11 @@
 
         <h1 class="font-semibold ml-auto mr-auto text-center">Conte's Domestic Electrical Care</h1>
 
-        <x-divider />
+        <div class="hidden lg:block">
+            <x-divider />
+        </div>
 
-        <p class="font-light mt-4 leading-8 text-center text-lg lg:text-xl">
+        <p class="font-light mt-4 leading-8 text-center hidden lg:block text-lg lg:text-xl">
             With over 45 years of experience, I am a highly skilled and knowledgeable professional who is dedicated to
             providing the highest level of service to my clients. I am well-versed in all aspects of domestic electrical 
             work, including wiring, lighting, and appliance installation and repair. My extensive experience and expertise
@@ -21,6 +23,7 @@
             electrical need that may arise in a domestic setting, and I always strive to ensure that my clients are
             completely satisfied with the work that I do.
         </p>
+
         <a
             href="{{ route('contact') }}"
             class="inline-flex items-center mt-12 ml-auto mr-auto rounded-md border border-transparent bg-yellow-600 px-12 py-3 text-base font-medium text-white shadow-sm hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2"
