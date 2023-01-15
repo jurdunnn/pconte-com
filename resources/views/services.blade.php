@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-    <div class="mt-32">
+    <div class="mt-32 lg:pb-12">
         <x-services-block title="Emergency Callouts">
             <x-services-item number="01." title="Complete Lighting Loss">
                 Generally I would troubleshoot the issue by checking the electrical panel,

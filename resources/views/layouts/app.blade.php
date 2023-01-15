@@ -16,7 +16,7 @@
             }
         </style>
     </head>
-    <body x-cloak class="antialiased dark:bg-gray-900 dark:text-gray-100 bg-gray-100 text-gray-900">
+    <body x-cloak class="antialiased relative min-h-[100%] min-h-[100vh] dark:bg-gray-900 dark:text-gray-100 bg-gray-100 text-gray-900">
         @section('navigation-bar')
             <x-navigation-bar />
         @show
@@ -31,11 +31,12 @@
             <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6"
                  style="margin-top: -200px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
                 @yield('livewire-content')
-
             </div>
         </div>
 
-        @yield('content')
+        <div class="pb-24">
+            @yield('content')
+        </div>
 
         @section('footer')
             <a href="#footer" class="fixed md:hidden bottom-6 right-6">
