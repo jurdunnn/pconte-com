@@ -3,6 +3,9 @@
 @section('masthead-image')
 @endsection
 
+@section('livewire-content')
+@endsection
+
 @section('content')
     <div class="absolute flex flex-col text-5xl text-white top-4 md:top-1/2 left-1/2 gap-y-6 -translate-x-1/2 md:-translate-y-[19rem]">
 

@@ -3,8 +3,11 @@
 @section('masthead-image')
 @endsection
 
+@section('livewire')
+@endsection
+
 @section('content')
-    <div class="mt-32 lg:pb-12">
+    <div class="mt-12 pb-24">
         <x-services-block title="Emergency Callouts">
             <x-services-item number="01." title="Complete Lighting Loss">
                 Generally I would troubleshoot the issue by checking the electrical panel,
