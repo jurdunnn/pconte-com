@@ -9,7 +9,7 @@
             <x-heroicon-o-sun class="w-full h-full" />
         </div>
 
-        <h1 class="font-semibold ml-auto mr-auto text-center">45 Years Experience</h1>
+        <h1 class="font-semibold ml-auto mr-auto text-center">Conte's Domestic Electrical Care</h1>
 
         <x-divider />
 
