@@ -11,21 +11,7 @@
 
         <h1 class="font-semibold ml-auto mr-auto text-center">45 Years Experience</h1>
 
-        <div class="relative grid grid-cols-5 gap-x-1 w-1/3 ml-auto mr-auto">
-            <div class="flex items-center col-span-2" aria-hidden="true">
-                <div class="w-full border-t border-yellow-500"></div>
-            </div>
-
-            <div class="relative flex justify-center">
-                <span class="bg-white bg-opacity-0 text-yellow-500">
-                    <x-heroicon-o-bolt class="w-8 h-8" />
-                </span>
-            </div>
-
-            <div class="flex items-center col-span-2" aria-hidden="true">
-                <div class="w-full border-t border-yellow-500"></div>
-            </div>
-        </div>
+        <x-divider />
 
         <p class="font-light mt-4 leading-8 text-center text-lg lg:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat.

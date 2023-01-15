@@ -4,53 +4,177 @@
 @endsection
 
 @section('content')
-    <x-fs-content-block>
-        <div class="max-w-7xl max-h-2xl w-4/5 mx-auto rounded-2xl text-gray-700 md:-mt-40 p-8 bg-white shadow-md flex flex-col md:flex-row ">
-            <h1 class="font-bold text-2xl w-full p-2 text-center text-gray-800">
-                Emergency Callouts
-                <x-heroicon-s-megaphone class="h-20 mx-auto" />
-            </h1>
+    <div class="mt-32">
+        <x-services-block title="Emergency Callouts">
+            <x-services-item number="01." title="Complete Lighting Loss">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
 
-            <div class="px-4 pt-2 pb-8 md:px-20 md:pb-12 leading-8">
-                <p>
-                    Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
-                </p>
-            </div>
+            <x-services-item number="02." title="No Power to Sockets">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
 
-        </div>
+            <x-services-item number="03." title="Kitchen Utilities Not Working">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
 
-    </x-fs-content-block>
+            <x-services-item number="04." title="Lighting Failure">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
 
-    <x-fs-content-block>
-        <div class="max-w-7xl max-h-2xl w-4/5 mx-auto rounded-2xl text-gray-700 md:-mt-40 p-8 bg-white shadow-md flex flex-col md:flex-row ">
-            <div class="px-4 pt-2 pb-8 md:px-20 md:pb-12 leading-8">
-                <p>
-                    Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
-                </p>
-            </div>
+            <x-services-item number="05." title="No Hot Water From Electric Immersion Heater">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
 
-            <h1 class="font-bold text-2xl w-full p-2 text-center text-gray-800">
-                Emergency Callouts
-                <x-heroicon-s-megaphone class="h-20 mx-auto" />
-            </h1>
-        </div>
+            <x-services-item number="06." title="Fuses Blowing Constantly">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
 
-    </x-fs-content-block>
+            <x-services-item number="07." title="MCB's Tripping">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
 
-    <x-fs-content-block>
-        <div class="w-full -mt-[18rem]">
-            <div class="bg-gradient-to-br from-pink-400 to-yellow-300 dark:from-pink-500 dark:to-yellow-500 text-white mx-auto max-w-7xl w-4/5 py-8 px-4 border-0 rounded-xl shadow sm:px-6 lg:py-10 lg:px-8">
-                <div class="mx-auto max-w-3xl flex flex-col gap-y-6 text-center text-2xl">
-                    <h1 class="font-bold">Emergency Callouts</h1>
-                    <h1>Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
-                        <br><br>
-                        Donec rutrum congue leo eget malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec sollicitudin molestie malesuada.</h1>
-                </div>
-            </div>
-        </div>
-    </x-fs-content-block>
+            <x-services-item number="08." title="RCD Constantly Tripping">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
 
-    <x-fs-content-block>
-        <h1>This is a test</h1>
-    </x-fs-content-block>
+            <x-services-item number="09." title="Fault Finding">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="10." title="Fully Insured and Accredited">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+        </x-services-block>
+
+        <x-divider width="1/2" />
+
+        <x-services-block title="Installation Work">
+            <x-services-item number="01." title="Electrical Installation Condition Reports">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="02." title="Replacement of old fuse boards">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="03." title="Fault Finding and Remedial work">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="04." title="Additional Sockets Outlets">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="05." title="Additional Lighting Points">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="06." title="Audio & Visual Equipment Installation">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="07." title="Emergency Lighting Installation">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="08." title="Emergency Lighting Testing">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+        </x-services-block>
+
+        <x-divider width="1/2" />
+
+        <x-services-block title="Maintenance work">
+            <x-services-item number="01." title="Pre-Planned Maintenance Schedules">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="02." title="Lighting Repairs">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="03." title="Emergency Lighting">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="04." title="Dilapidation Reporting">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="05." title="Daily, Weekly and Monthly Visits Available">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="06." title="Fire Alarm Testing">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="07." title="Distribution Board Servicing">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="08." title="New Circuits">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+
+            <x-services-item number="09." title="Electrical Installation Condition Reports">
+                We love numbers! We collect data and insights, analyze
+                them then take the time to learn about your objectives, ask the right questions to understand your
+                business.
+            </x-services-item>
+        </x-services-block>
+    </div>
 @endsection
