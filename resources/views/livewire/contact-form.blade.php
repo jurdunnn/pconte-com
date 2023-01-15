@@ -123,7 +123,7 @@
                     </div>
                 </a>
 
-                <a href="mailto:pconte@example.com" class="mb-12 md:mb-0 grow-0 hover:opacity-80 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
+                <a href="mailto:#" class="mb-12 md:mb-0 grow-0 hover:opacity-80 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                     <div class="flex align-start">
                         <div class="shrink-0">
                             <div class="p-4 bg-yellow-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
@@ -137,7 +137,7 @@
                         </div>
                         <div class="grow ml-6">
                             <p class="font-bold mb-1">General Support</p>
-                            <p class="text-gray-500">pconte@example.com</p>
+                            <p class="text-gray-500">email@email.com</p>
                             <p class="text-gray-500">+44 234-567-89</p>
                         </div>
                     </div>
