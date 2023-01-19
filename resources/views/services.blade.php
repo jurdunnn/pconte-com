@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('masthead-image')
+@section('masthead')
 @endsection
 
 @section('livewire')

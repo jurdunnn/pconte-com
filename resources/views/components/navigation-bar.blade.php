@@ -1,7 +1,7 @@
 <nav
-    class="relative w-full flex flex-wrap items-center justify-between bg-gray-700 dark:bg-gray-800 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light"
+    class="relative w-full flex flex-wrap items-center justify-between bg-gray-700 dark:bg-gray-800 text-gray-200 navbar navbar-expand-lg navbar-light z-10"
     >
-    <div class="container-fluid h-full w-full  flex flex-wrap items-center justify-between px-20">
+    <div class="h-full w-full  flex flex-wrap items-center justify-between px-20">
         <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent1">
             <a class="text-xl text-white pr-2 font-bold" href="{{ route('index') }}">
                 <x-logo />

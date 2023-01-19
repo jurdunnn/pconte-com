@@ -16,19 +16,17 @@
             }
         </style>
     </head>
-    <body x-cloak class="antialiased relative min-h-[100%] min-h-[100vh] dark:bg-gray-900 dark:text-gray-100 bg-gray-100 text-gray-900">
+    <body x-cloak class="antialiased relative min-h-[100%] min-h-[100vh] w-full dark:bg-gray-900 dark:text-gray-100 bg-gray-100 text-gray-900">
         @section('navigation-bar')
             <x-navigation-bar />
         @show
 
-        @section('masthead-image')
-            <div class="invisible relative overflow-hidden bg-no-repeat bg-cover"
-                 style="background-position: 50%; background-image: url('https://mdbootstrap.com/img/new/textures/full/284.jpg'); height: 300px;">
-            </div>
+        @section('masthead')
+            <x-masthead />
         @show
 
         @section('livewire')
-            <div class="ml-auto mr-auto container px-4 md:px-12 text-gray-700 min-h-screen pb-24 lg:pb-0">
+            <div class="ml-auto mr-auto px-4 md:px-12 text-gray-700 min-h-screen pb-24 lg:pb-0">
                 <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6"
                      style="margin-top: -200px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
                     @yield('livewire-content')
