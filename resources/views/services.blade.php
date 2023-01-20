@@ -7,8 +7,8 @@
 @endsection
 
 @section('content')
-    <div class="mt-12 pb-24">
-        <x-services-block title="Emergency Callouts">
+    <div class="container-mobile flex flex-col items-center">
+        <x-services-block title="Emergency Callouts" id="callouts">
             <x-services-item number="01." title="Complete Lighting Loss">
                 Generally I would troubleshoot the issue by checking the electrical panel,
                 wiring, light fixtures and switches.
@@ -62,10 +62,11 @@
                 as well as protection for both me and my clients. 
             </x-services-item>
         </x-services-block>
-
+    </div>
         <x-divider width="1/2" />
 
-        <x-services-block title="Installation Work">
+    <div class="container-mobile flex flex-col items-center">
+        <x-services-block title="Installation Work" id="installation">
             <x-services-item number="01." title="Electrical Installation Condition Reports">
                 I would inspect and test the electrical installation in a property, report any issues found and provide
                 recommended actions to repair or upgrade the installation. 
@@ -108,10 +109,12 @@
                 current safety regulations, and make repairs or replace any faulty parts as necessary.
             </x-services-item>
         </x-services-block>
+    </div>
 
-        <x-divider width="1/2" />
+    <x-divider width="1/2" />
 
-        <x-services-block title="Maintenance work">
+    <div class="pb-32 container-mobile flex flex-col items-center">
+        <x-services-block title="Maintenance work" id="maintenance">
             <x-services-item number="01." title="Pre-Planned Maintenance Schedules">
                 I would create and follow a pre-planned maintenance schedule, performing regular inspections and 
                 tests to identify and address potential issues, ensuring the safe and efficient operation of
