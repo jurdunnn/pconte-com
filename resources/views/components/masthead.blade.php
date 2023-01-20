@@ -1,7 +1,7 @@
-@props(['title' => null, 'yellowTitle' => null, 'subtitle' => null])
+@props(['title' => null, 'yellowTitle' => null, 'subtitle' => null, 'backgroundColor' => null,])
 
 
-<div class="relative">
+<div class="relative {{ $backgroundColor }}">
     <div class="min-h-[10vh] dark:bg-gray-800 bg-gray-700 -z-50"></div>
     <div class="min-h-[20vh] dark:bg-gray-800 bg-gray-700 rounded-bl-full -z-50"></div>
 

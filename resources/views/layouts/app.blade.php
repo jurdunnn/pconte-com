@@ -16,7 +16,7 @@
             }
         </style>
     </head>
-    <body x-cloak class="antialiased relative min-h-[100%] min-h-[100vh] w-full dark:bg-gray-900 dark:text-gray-100 bg-gray-100 text-gray-900">
+    <body x-cloak class="antialiased relative w-full dark:bg-gray-700 dark:text-gray-100 bg-gray-100 text-gray-900">
         @section('navigation-bar')
             <x-navigation-bar />
         @show
@@ -25,16 +25,18 @@
             <x-masthead />
         @show
 
-        @section('livewire')
-            <div class="ml-auto mr-auto px-4 md:px-12 text-gray-700 min-h-screen pb-24 lg:pb-0">
-                <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6"
-                     style="margin-top: -200px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
-                    @yield('livewire-content')
+        <main>
+            @section('livewire')
+                <div class="ml-auto mr-auto px-4 md:px-12 text-gray-700 pb-24 lg:pb-0">
+                    <div class="block rounded-lg shadow-lg py-10 md:py-12 px-2 md:px-6"
+                         style="margin-top: -200px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
+                        @yield('livewire-content')
+                    </div>
                 </div>
-            </div>
-        @show
+            @show
 
-        @yield('content')
+            @yield('content')
+        </main>
 
         @section('footer')
             <a href="#footer" class="fixed md:hidden bottom-6 right-6">

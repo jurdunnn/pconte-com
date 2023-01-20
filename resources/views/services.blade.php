@@ -113,7 +113,7 @@
 
     <x-divider width="1/2" />
 
-    <div class="pb-32 container-mobile flex flex-col items-center">
+    <div class="container-mobile flex flex-col items-center">
         <x-services-block title="Maintenance work" id="maintenance">
             <x-services-item number="01." title="Pre-Planned Maintenance Schedules">
                 I would create and follow a pre-planned maintenance schedule, performing regular inspections and 
