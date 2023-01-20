@@ -29,7 +29,7 @@
             @section('livewire')
                 <div class="ml-auto mr-auto px-4 md:px-12 text-gray-700 pb-24 lg:pb-0">
                     <div class="block rounded-md shadow-lg py-10 md:py-12 px-2 md:px-6"
-                         style="margin-top: -200px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(90px);">
+                         style="margin-top: -200px; background: hsla(0, 0%, 100%, 0.9); backdrop-filter: blur(90px);">
                         @yield('livewire-content')
                     </div>
                 </div>
