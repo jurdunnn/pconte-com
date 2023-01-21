@@ -1,11 +1,26 @@
 <h1> PConte.com </h1>
 
 <h2> Purpose </h2>
-    <p> Website for my Dad who is wanting to go self imployed </p>
+    <p>
+    My Step dad is an electrician, this website doubles as a way for him to manage his business and to promote it. Tool to help calculate income an and         expendeture are on the todo list.
+    </p>
+
+<h3>URL</h3>
+https://conte.electricalcare.net
 
 <h2>Technicals</h2>
-    <p> ... // TOODO </p>
+    <ul>
+        <li>   
+            This is hosted on an AWS EC2
+        </li>
+        <li>   
+            The SSL Certification is provided by Certbot
+        </li>
+        <li>    
+            This is a laravel 9 project
+        </li>
+        <li>
+            I'm using Vite to build the project, though vite has become redundant as I am now serving the local site via valet.
+        </li>
+    </ul>
 
-<h2>Reference Image</h2>
-
-<img src="https://colorlib.com/wp/wp-content/uploads/sites/2/electrician-wordpress-theme-1024x760.jpg" alt="Reference Image">
