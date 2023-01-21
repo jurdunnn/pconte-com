@@ -1,6 +1,6 @@
 @props(['title', 'featured' => false, 'icon' => null, 'iconColor' => null, 'iconSize' => null,])
 
-<div class="@if($featured) bg-white dark:bg-gray-800 rounded-2xl shadow-2xl @endif px-8 py-12 sm:px-12 lg:px-8">
+<div class="@if($featured) bg-white dark:bg-gray-800 shadow-2xl @endif px-8 py-12 sm:px-12 lg:px-8">
     @if($icon)
         <span class="{{ $iconColor }}">
             <i class="{{ $icon }} {{ $iconSize }}"></i>
