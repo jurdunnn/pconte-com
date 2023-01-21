@@ -102,7 +102,7 @@
             </x-tri-feature-block-item>
 
             <x-tri-feature-block-item icon="fa-solid fa-toolbox" iconSize="fa-4x" iconColor="text-gray-700 dark:text-gray-100" :featured="true" link="{{ route('services') }}" title="Emergency Callouts">
-                I will be responding to urgent issues with electrical systems and components in a home, such
+                At double my hourly rate, I will be responding to urgent issues with electrical systems and components in a home, such
                 as power outages or electrical hazards, to ensure safety and restore power quickly.
             </x-tri-feature-block-item>
 
