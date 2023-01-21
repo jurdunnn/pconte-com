@@ -9,8 +9,6 @@
 
 <!-- 
     Information about the company's qualifications and certifications, for example, NICEIC approved contractor, fully insured, and compliant with industry standards.
-    Testimonials or reviews from satisfied customers.
-    A contact form or phone number for easy communication with the company.
     A list of frequently asked questions and their answers
     A section on emergency services and 24/7 availability
     Tips and advice on energy efficiency and cost savings.
@@ -51,7 +49,7 @@
         </x-tri-feature-block>
 
         @if($testimonials)
-            <div class="mt-12 py-6">
+            <div>
                 <x-title title="Testimonials" icon="fa-solid fa-star" subtitle="What my clients say about me." />
 
                 <div class="flex flex-col gap-y-6 lg:flex-row lg:gap-x-6">
@@ -71,7 +69,7 @@
                     @endforeach
                 </div>
 
-                <div class="flex flex-col gap-y-2 py-12">
+                <div class="flex flex-col gap-y-2 pt-12">
                     <h3 class="text-center py-4 text-sm font-light max-w-sm ml-auto mr-auto">
                         Contact us to book a telephone consultation and receive a quote.
                     </h3>
@@ -80,5 +78,67 @@
                 </div>
             </div>
         @endif
+
+        <div>
+            <x-title title="Pricing" subtitle="What I charge for my services" icon="fa-solid fa-coins" />
+
+            <div class="bg-white dark:bg-gray-800 shadow-2xl px-8 w-full py-12 sm:px-12 lg:px-8">
+                <div class="flex flex-col md:flex-row gap-y-4 gap-x-4">
+                    <div class="relative flex flex-col gap-y-8 text-center border-b-2 md:border-b-0 md:border-r-2 border-gray-600 w-full px-4">
+                        <h3 class="text-2xl font-semibold text-yellow-500 py-2">Regular Callout Charge</h3>
+                        <p class="max-w-sm pb-24 text-center lg:text-left mr-auto ml-auto">
+                            This is a fee I will charge for responding to a service call or visit to a customer's location.
+                            This fee may cover costs such as transportation, materials, and labor associated
+                            with the visit. 
+                        </p>
+
+                        <div class="absolute bottom-0 left-[50%] -translate-x-[50%] flex gap-x-3 py-6 md:py-2">
+                            <span class="text-yellow-500">
+                                <i class="fa-solid fa-sterling-sign fa-2x"></i>
+                            </span>
+                            <h3 class="text-2xl font-bold text-yellow-500 leading-[2rem] text-3xl">50</h3>
+                        </div>
+                    </div>
+
+                    <div class="relative flex flex-col gap-y-8 text-center border-b-2 md:border-b-0 md:border-r-2 border-gray-600 w-full px-4">
+                        <h3 class="text-2xl font-semibold text-yellow-500 py-2">Out-of-Hours Rate</h3>
+                        <p class="max-w-sm pb-24 text-center lg:text-left mr-auto ml-auto">
+                            This may include evenings, weekends, or holidays. Electricians may charge an out of hours
+                            rate as a means of compensating for the inconvenience and additional costs associated with
+                            working during non-business hours, such as higher labor costs. 
+                        </p>
+
+                        <div class="absolute bottom-0 left-[50%] -translate-x-[50%] flex gap-x-3 py-6 md:py-2">
+                            <span class="text-yellow-500">
+                                <i class="fa-solid fa-sterling-sign fa-2x"></i>
+                            </span>
+                            <h3 class="text-2xl font-bold text-yellow-500 leading-[2rem] text-3xl">
+                                80
+                                <span class="font-semibold text-sm"> ph</span>
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="relative flex flex-col gap-y-8 text-center w-full px-4">
+                        <h3 class="text-2xl font-semibold text-yellow-500 py-2">Regular Rate</h3>
+                        <p class="max-w-sm pb-24 text-center lg:text-left mr-auto ml-auto">
+                            The regular rate is the fee that is charged for the actual work done, after the call out
+                            fee is paid, if any. This rate is usually based on the time spent on the job and may include
+                            the cost of materials as well.
+                        </p>
+
+                        <div class="absolute bottom-0 left-[50%] -translate-x-[50%] flex gap-x-3 py-6 md:py-2">
+                            <span class="text-yellow-500">
+                                <i class="fa-solid fa-sterling-sign fa-2x"></i>
+                            </span>
+                            <h3 class="text-2xl font-bold text-yellow-500 leading-[2rem] text-3xl">
+                                60
+                                <span class="font-semibold text-sm"> ph</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 @endsection
