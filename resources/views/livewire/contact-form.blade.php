@@ -10,7 +10,7 @@
                     <input
                         type="text"
                         wire:model="form.name"
-                        class="block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-l-4 border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-l-yellow-500 focus:outline-none"
+                        class="block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-l-4 border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-l-yellow-500 focus:outline-none"
                         id="exampleInput7"
                         placeholder="Name"
                         >
@@ -21,7 +21,7 @@
                     <input
                         type="email"
                         wire:model="form.email"
-                        class="block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-l-4 border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-l-yellow-500 focus:outline-none"
+                        class="block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-l-4 border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-l-yellow-500 focus:outline-none"
                         id="exampleInput8"
                         placeholder="Email address"
                         >
@@ -32,7 +32,7 @@
                     <input
                         type="text"
                         wire:model="form.reference"
-                        class="block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-l-4 border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-l-yellow-500 focus:outline-none"
+                        class="block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-l-4 border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-l-yellow-500 focus:outline-none"
                         id="exampleInput20"
                         placeholder="Booking Reference (Optional)"
                         >
@@ -43,7 +43,7 @@
                     <textarea
                         type="text"
                         wire:model="form.message"
-                        class="block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-l-4 border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-l-yellow-500 focus:outline-none"
+                        class="block w-full px-3 py-1.5 text-base font-normal bg-white bg-clip-padding border border-l-4 border-solid border-gray-300 transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-l-yellow-500 focus:outline-none"
                         id="exampleFormControlTextarea13"
                         rows="3"
                         placeholder="Message"></textarea>
@@ -53,7 +53,7 @@
                 <div class="form-group form-check text-center mb-6">
                     <input
                         type="checkbox"
-                        class="form-check-input appearance-none h-4 w-4 border border-l-4 border-gray-300 rounded-sm bg-white checked:bg-yellow-500 checked:border-yellow-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
+                        class="form-check-input appearance-none h-4 w-4 border border-l-4 border-gray-300 bg-white checked:bg-yellow-500 checked:border-yellow-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
                         id="exampleCheck87"
                         checked
                         />
@@ -75,7 +75,7 @@
 
                 <button
                     type="submit"
-                    class="w-full px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-400 hover:shadow-lg focus:bg-yellow-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-800 active:shadow-lg transition duration-150 ease-in-out"
+                    class="w-full px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase shadow-md hover:bg-yellow-400 hover:shadow-lg focus:bg-yellow-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-800 active:shadow-lg transition duration-150 ease-in-out"
                     >
                     Send
                 </button>
@@ -87,7 +87,7 @@
                 <a href="#" class="mb-12 grow-0 shrink-0 hover:opacity-80 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                     <div class="flex items-start">
                         <div class="shrink-0">
-                            <div class="p-4 bg-yellow-500 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                            <div class="p-4 bg-yellow-500 shadow-md w-14 h-14 flex items-center justify-center">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="headset" class="w-5 text-white"
                                                                                                                 role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path fill="currentColor"
@@ -107,7 +107,7 @@
                 <a href="#" class="mb-12 grow-0 shrink-0 hover:opacity-80 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                     <div class="flex items-start">
                         <div class="shrink-0">
-                            <div class="p-4 bg-yellow-500 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                            <div class="p-4 bg-yellow-500 shadow-md w-14 h-14 flex items-center justify-center">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dollar-sign"
                                                                                             class="w-3 text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 512">
                                     <path fill="currentColor"
@@ -126,7 +126,7 @@
                 <a href="mailto:#" class="mb-12 md:mb-0 grow-0 hover:opacity-80 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                     <div class="flex align-start">
                         <div class="shrink-0">
-                            <div class="p-4 bg-yellow-500 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                            <div class="p-4 bg-yellow-500 shadow-md w-14 h-14 flex items-center justify-center">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="newspaper"
                                                                                             class="w-5 text-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                                     <path fill="currentColor"
@@ -146,7 +146,7 @@
                 <a href="#" class="grow-0 shrink-0 hover:opacity-80 basis-auto w-full md:w-6/12 px-3 lg:px-6">
                     <div class="flex align-start">
                         <div class="shrink-0">
-                            <div class="p-4 bg-yellow-500 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                            <div class="p-4 bg-yellow-500 shadow-md w-14 h-14 flex items-center justify-center">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bug" class="w-5 text-white"
                                                                                                             role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path fill="currentColor"
