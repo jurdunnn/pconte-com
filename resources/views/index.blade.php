@@ -84,7 +84,7 @@
 
             <div class="bg-white dark:bg-gray-800 shadow-2xl px-8 w-full py-12 sm:px-12 lg:px-8">
                 <div class="flex flex-col md:flex-row gap-y-4 gap-x-4">
-                    <div class="relative flex flex-col gap-y-8 text-center border-b-2 md:border-b-0 md:border-r-2 border-gray-600 w-full px-4">
+                    <div class="relative flex flex-col gap-y-8 text-center border-b-2 md:border-b-0 md:border-r-2 border-gray-200 dark:border-gray-600 w-full px-4">
                         <h3 class="text-2xl font-semibold text-yellow-500 py-2">Regular Callout Charge</h3>
                         <p class="max-w-sm pb-24 text-center lg:text-left mr-auto ml-auto">
                             This is a fee I will charge for responding to a service call or visit to a customer's location.
@@ -100,7 +100,7 @@
                         </div>
                     </div>
 
-                    <div class="relative flex flex-col gap-y-8 text-center border-b-2 md:border-b-0 md:border-r-2 border-gray-600 w-full px-4">
+                    <div class="relative flex flex-col gap-y-8 text-center border-b-2 md:border-b-0 md:border-r-2 border-gray-200 dark:border-gray-600 w-full px-4">
                         <h3 class="text-2xl font-semibold text-yellow-500 py-2">Out-of-Hours Rate</h3>
                         <p class="max-w-sm pb-24 text-center lg:text-left mr-auto ml-auto">
                             This may include evenings, weekends, or holidays. Electricians may charge an out of hours
