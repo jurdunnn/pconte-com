@@ -17,7 +17,9 @@
 -->
 @section('content')
     <div class="mt-8 md:mt-0 mobile-container md:container flex flex-col gap-y-24 text-gray-700 dark:text-gray-100">
-        <div class="w-full md:hidden mt-8">
+        <div class="w-full md:hidden pb-12">
+            <x-title title="About me" subtitle="My qualifications and motivations." icon="fa-solid fa-image-portrait" />
+
             <p class="text-center">
                 <span class="text-yellow-500">
                     <i class="fa-solid fa-quote-left fa-lg"></i>
@@ -35,8 +37,8 @@
             <x-title title="Pricing" subtitle="What I charge for my services" icon="fa-solid fa-coins" />
 
             <div class="bg-white dark:bg-gray-800 shadow-2xl px-8 w-full py-12 sm:px-12 lg:px-8">
-                <div class="flex flex-col md:flex-row gap-y-4 gap-x-4">
-                    <div class="relative flex flex-col gap-y-8 text-center border-b-2 md:border-b-0 md:border-r-2 border-gray-200 dark:border-gray-600 w-full px-4">
+                <div class="flex flex-col lg:flex-row gap-y-4 gap-x-4">
+                    <div class="relative flex flex-col gap-y-8 text-center border-b-2 lg:border-b-0 lg:border-r-2 border-gray-200 dark:border-gray-600 w-full px-4">
                         <h3 class="text-2xl font-semibold text-yellow-500 py-2">Regular Callout Charge</h3>
                         <p class="max-w-sm pb-24 text-center lg:text-left mr-auto ml-auto">
                             This is a fee I will charge for responding to a service call or visit to a customer's location.
@@ -52,7 +54,7 @@
                         </div>
                     </div>
 
-                    <div class="relative flex flex-col gap-y-8 text-center border-b-2 md:border-b-0 md:border-r-2 border-gray-200 dark:border-gray-600 w-full px-4">
+                    <div class="relative flex flex-col gap-y-8 text-center border-b-2 lg:border-b-0 lg:border-r-2 border-gray-200 dark:border-gray-600 w-full px-4">
                         <h3 class="text-2xl font-semibold text-yellow-500 py-2">Out-of-Hours Rate</h3>
                         <p class="max-w-sm pb-24 text-center lg:text-left mr-auto ml-auto">
                             This may include evenings, weekends, or holidays. Electricians may charge an out of hours
