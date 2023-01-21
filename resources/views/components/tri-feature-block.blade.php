@@ -1,7 +1,7 @@
 @props(['title' => null, 'subtitle' => null, 'additionalClasses' => '', 'icon' => null,])
 
 <div class="py-6 {{ $additionalClasses }}">  
-    <div class="m-auto px-6 md:px-12 xl:px-0">
+    <div class="m-auto">
         @if ($title && $subtitle)
             <x-title icon="{{ $icon }}" title="{{ $title }}" subtitle="{{ $subtitle }}" />
         @endif
