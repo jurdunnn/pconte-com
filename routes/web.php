@@ -15,9 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-})->name('index');
+Route::get('/', '\App\Http\Controllers\IndexController@create')->name('index');
 
 Route::get('/services', function () {
     return view('services');
