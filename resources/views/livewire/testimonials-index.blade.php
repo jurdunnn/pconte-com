@@ -1,5 +1,9 @@
+@section('masthead')
+@endsection
+
 @section('livewire-content')
-    <section class="mb-20 text-gray-700">
+
+    <section class="mb-20">
         <div class="text-center md:max-w-xl lg:max-w-3xl mx-auto">
             <h3 class="text-3xl font-bold mb-6 pb-2 md:mb-12 md:pb-0">Testimonials</h3>
         </div>

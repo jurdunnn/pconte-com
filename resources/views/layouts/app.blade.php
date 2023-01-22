@@ -31,9 +31,8 @@
 
         <main>
             @section('livewire')
-                <div class="ml-auto mr-auto px-4 md:px-12 text-gray-700 pb-24 lg:pb-0">
-                    <div class="block shadow-2xl py-10 md:py-12 px-2 md:px-6"
-                         style="margin-top: -200px; background: hsla(0, 0%, 100%, 0.9); backdrop-filter: blur(90px);">
+                <div class="ml-auto py-24 mr-auto px-4 md:px-12 text-gray-700 pb-24 lg:pb-0 z-50">
+                    <div class="bg-white dark:bg-gray-800 shadow-2xl dark:text-gray-100 px-8 w-full py-12 sm:px-12 lg:px-8">
                         @yield('livewire-content')
                     </div>
                 </div>
