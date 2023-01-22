@@ -7,7 +7,9 @@
 
     <div class="relative flex justify-center">
         <span class="bg-white bg-opacity-0 text-yellow-500">
-            <x-heroicon-o-bolt class="w-8 h-8" />
+            <span class="text-yellow-500 w-8 h-8">
+                <i class="fa-solid fa-bolt fa-xl"></i>
+            </span>
         </span>
     </div>
 
