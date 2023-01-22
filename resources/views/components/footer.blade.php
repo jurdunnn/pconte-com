@@ -1,4 +1,4 @@
-<footer id="footer" class="w-full text-center bg-gray-600 dark:bg-gray-700 text-white">
+<footer id="footer" class="w-full mt-12 text-center bg-gray-600 dark:bg-gray-700 text-white">
     <div class="lg:hidden">
         <x-nav-links />
     </div>
