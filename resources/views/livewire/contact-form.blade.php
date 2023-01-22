@@ -39,6 +39,18 @@
 
                     <div class="form-group mb-6">
                         <input
+                            type="tel"
+                            wire:model="form.telephone"
+                            class="block w-full px-3 py-1.5 text-base font-normal dark:bg-gray-800 bg-white bg-clip-padding border border-l-4 border-solid dark:border-gray-800 border-white dark:text-gray-100 text-gray-700 dark:text-gray-100 transition ease-in-out m-0 focus:text-gray-700 focus:dark:text-gray-100 focus:dark:bg-gray-800 bg-white focus:dark:border-l-yellow-500 focus:border-l-yellow-500 focus:outline-none"
+                            id="emailText"
+                            placeholder="Telephone (Optional)"
+                            >
+                            @error('form.telephone') <span class="error">{{ $message }}</span> @enderror
+                    </div>
+
+
+                    <div class="form-group mb-6">
+                        <input
                             type="text"
                             wire:model="form.reference"
                             class="block w-full px-3 py-1.5 text-base font-normal dark:bg-gray-800 bg-white bg-clip-padding border border-l-4 border-solid dark:border-gray-800 border-white dark:text-gray-100 text-gray-700 dark:text-gray-100 transition ease-in-out m-0 focus:text-gray-700 focus:dark:text-gray-100 focus:dark:bg-gray-800 bg-white focus:dark:border-l-yellow-500 focus:border-l-yellow-500 focus:outline-none"

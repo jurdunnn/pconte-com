@@ -16,6 +16,7 @@ class ContactForm extends Component
         'form.email' => 'required|email',
         'form.reference' => 'nullable|string',
         'form.message' => 'required|string|max:255',
+        'form.telephone' => 'nullable|string|max:20',
     ];
 
     public function mount()

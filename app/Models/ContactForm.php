@@ -13,6 +13,7 @@ class ContactForm extends Model
         'name',
         'email',
         'reference',
-        'message'
+        'message',
+        'telephone'
     ];
 }
