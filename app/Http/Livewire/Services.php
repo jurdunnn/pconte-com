@@ -37,8 +37,10 @@ class Services extends Component
             ->orderBy('interactions');
 
         if ($this->searchQuery) {
-            $services->where('title', 'LIKE', "%$this->searchQuery%")
-                ->orWhere('description', 'LIKE', "%$this->searchQuery%");
+            $services->where(function ($query) {
+                return $query->where('title', 'LIKE', "%$this->searchQuery%")
+                    ->orWhere('description', 'LIKE', "%$this->searchQuery%");
+            });
         }
 
         if ($this->selectedType) {
