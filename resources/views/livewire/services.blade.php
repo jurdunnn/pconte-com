@@ -5,7 +5,7 @@
 @endsection
 
 <div class="container-mobile flex flex-col items-center">
-    <div class="py-4 ml-auto mr-auto w-1/3 mt-12">
+    <div class="py-4 ml-auto mr-auto w-full px-6 md:px-0 md:w-2/3 lg:w-1/3 mt-12">
         <input
             type="search"
             wire:model="searchQuery"
@@ -14,7 +14,7 @@
             placeholder="Search"
             />
     </div>
-    <div class="flex flex-col gap-y-4 md:flex-row gap-x-6 select-none">
+    <div class="grid place-content-center grid-cols-2 md:grid-cols-4 gap-8">
         <button wire:click="setSelectedType('1')" class="relative bg-gray-800 cursor-pointer hover:scale-105 shadow-2xl dark:text-gray-100 py-3 px-8 min-w-content">
             @if ($selectedType == 1)
                 <div class="absolute top-0 right-0 w-4 h-4 bg-yellow-500"></div>
