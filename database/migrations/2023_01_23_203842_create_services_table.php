@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->string('title')->index();
-            $table->text('description')->index();
+            $table->string('description')->index();
             $table->tinyInteger('type');
             $table->boolean('enabled')->default(true);
             $table->unsignedBigInteger('interactions')->default(0);
