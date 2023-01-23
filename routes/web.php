@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Livewire\ContactForm;
+use App\Http\Livewire\Services;
 use App\Http\Livewire\TestimonialsIndex;
 use Illuminate\Support\Facades\Route;
 
@@ -17,9 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', '\App\Http\Controllers\IndexController@create')->name('index');
 
-Route::get('/services', function () {
-    return view('services');
-})->name('services');
+Route::get('/services', Services::class)->name('services');
 
 Route::get('/about', function () {
     return view('about');
