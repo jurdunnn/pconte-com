@@ -9,7 +9,7 @@
         <input
             type="search"
             wire:model="searchQuery"
-            class="block w-full px-3 py-1.5 font-normal dark:bg-gray-800 bg-white bg-clip-padding border border-b-4 border-solid dark:border-gray-800 border-white dark:text-gray-100 text-gray-700 dark:text-gray-100 transition ease-in-out m-0 focus:text-gray-700 focus:dark:text-gray-100 focus:dark:bg-gray-800 bg-white focus:outline-none shadow-xl @if($selectedType == null) focus:dark:border-b-white focus:border-b-gray-900 @elseif($selectedType == 1) focus:dark:border-b-yellow-500 focus:border-b-yellow-500 @elseif($selectedType == 2) focus:dark:border-b-blue-500 focus:border-b-blue-500 @elseif($selectedType == 3) focus:dark:border-b-red-500 focus:border-b-red-500 @endif"
+            class="block w-full px-3 py-1.5 font-normal dark:bg-gray-800 bg-white bg-clip-padding border border-b-4 border-solid dark:border-gray-800 border-white dark:text-gray-100 text-gray-700 dark:text-gray-100 transition ease-in-out m-0 focus:text-gray-700 focus:dark:text-gray-100 focus:dark:bg-gray-800 bg-white focus:outline-none shadow-xl @if($selectedType == null) focus:dark:border-b-white focus:border-b-gray-700 @elseif($selectedType == 1) focus:dark:border-b-yellow-500 focus:border-b-yellow-500 @elseif($selectedType == 2) focus:dark:border-b-blue-500 focus:border-b-blue-500 @elseif($selectedType == 3) focus:dark:border-b-red-500 focus:border-b-red-500 @endif"
             id="searchQuery"
             placeholder="Search for a service"
             />
@@ -42,10 +42,10 @@
 
         <a wire:click="setSelectedType(null)" class="relative select-none bg-white dark:bg-gray-800 hover:scale-105 cursor-pointer shadow-2xl dark:text-gray-100 py-3 px-8 min-w-content">
             @if ($selectedType == null)
-                <div class="absolute top-0 right-0 w-4 h-4 bg-gray-800 dark:bg-white"></div>
+                <div class="absolute top-0 right-0 w-4 h-4 bg-gray-700 dark:bg-white"></div>
                 <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-white dark:bg-gray-800 rotate-45"></div>
             @endif
-            <div class="text-xl text-gray-900 dark:text-white text-center font-bold">All</div>
+            <div class="text-xl text-gray-700 dark:text-white text-center font-bold">All</div>
         </a>
 
     </div>
