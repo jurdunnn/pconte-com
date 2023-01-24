@@ -9,43 +9,43 @@
         <input
             type="search"
             wire:model="searchQuery"
-            class="block w-full px-3 py-1.5 font-normal dark:bg-gray-800 bg-white bg-clip-padding border border-b-4 border-solid dark:border-gray-800 border-white dark:text-gray-100 text-gray-700 dark:text-gray-100 transition ease-in-out m-0 focus:text-gray-700 focus:dark:text-gray-100 focus:dark:bg-gray-800 bg-white focus:dark:border-b-yellow-500 focus:border-b-yellow-500 focus:outline-none"
+            class="block w-full px-3 py-1.5 font-normal dark:bg-gray-800 bg-white bg-clip-padding border border-b-4 border-solid dark:border-gray-800 border-white dark:text-gray-100 text-gray-700 dark:text-gray-100 transition ease-in-out m-0 focus:text-gray-700 focus:dark:text-gray-100 focus:dark:bg-gray-800 bg-white focus:outline-none shadow-xl @if($selectedType == null) focus:dark:border-b-white focus:border-b-gray-900 @elseif($selectedType == 1) focus:dark:border-b-yellow-500 focus:border-b-yellow-500 @elseif($selectedType == 2) focus:dark:border-b-blue-500 focus:border-b-blue-500 @elseif($selectedType == 3) focus:dark:border-b-red-500 focus:border-b-red-500 @endif"
             id="searchQuery"
-            placeholder="Search"
+            placeholder="Search for a service"
             />
     </div>
     <div class="grid place-content-center grid-cols-2 md:grid-cols-4 gap-8">
-        <button wire:click="setSelectedType('1')" class="relative bg-gray-800 cursor-pointer hover:scale-105 shadow-2xl dark:text-gray-100 py-3 px-8 min-w-content">
+        <button wire:click="setSelectedType('1')" class="relative select-none bg-white dark:bg-gray-800 cursor-pointer hover:scale-105 shadow-2xl dark:text-gray-100 py-3 px-8 min-w-content">
             @if ($selectedType == 1)
                 <div class="absolute top-0 right-0 w-4 h-4 bg-yellow-500"></div>
-                <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-gray-800 rotate-45"></div>
+                <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-white dark:bg-gray-800 rotate-45"></div>
             @endif
 
             <p class="text-xl text-yellow-500 text-center font-bold">Emergency</p>
         </button>
 
-        <a wire:click="setSelectedType('3')" class="relative bg-gray-800 hover:scale-105 cursor-pointer shadow-2xl dark:text-gray-100 py-3 px-8 min-w-content">
+        <a wire:click="setSelectedType('3')" class="relative select-none bg-white dark:bg-gray-800 hover:scale-105 cursor-pointer shadow-2xl dark:text-gray-100 py-3 px-8 min-w-content">
             @if ($selectedType == 3)
                 <div class="absolute top-0 right-0 w-4 h-4 bg-red-500"></div>
-                <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-gray-800 rotate-45"></div>
+                <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-white dark:bg-gray-800 rotate-45"></div>
             @endif
             <div class="text-xl text-red-500 text-center font-bold">Maintenance</div>
         </a>
 
-        <a wire:click="setSelectedType('2')" class="relative bg-gray-800 hover:scale-105 cursor-pointer shadow-2xl dark:text-gray-100 py-3 px-8 min-w-content">
+        <a wire:click="setSelectedType('2')" class="relative select-none bg-white dark:bg-gray-800 hover:scale-105 cursor-pointer shadow-2xl dark:text-gray-100 py-3 px-8 min-w-content">
             @if ($selectedType == 2)
                 <div class="absolute top-0 right-0 w-4 h-4 bg-blue-500"></div>
-                <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-gray-800 rotate-45"></div>
+                <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-white dark:bg-gray-800 rotate-45"></div>
             @endif
             <div class="text-xl text-blue-500 text-center font-bold">Installation</div>
         </a>
 
-        <a wire:click="setSelectedType(null)" class="relative bg-gray-800 hover:scale-105 cursor-pointer shadow-2xl dark:text-gray-100 py-3 px-8 min-w-content">
+        <a wire:click="setSelectedType(null)" class="relative select-none bg-white dark:bg-gray-800 hover:scale-105 cursor-pointer shadow-2xl dark:text-gray-100 py-3 px-8 min-w-content">
             @if ($selectedType == null)
-                <div class="absolute top-0 right-0 w-4 h-4 bg-white"></div>
-                <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-gray-800 rotate-45"></div>
+                <div class="absolute top-0 right-0 w-4 h-4 bg-gray-800 dark:bg-white"></div>
+                <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-white dark:bg-gray-800 rotate-45"></div>
             @endif
-            <div class="text-xl text-white text-center font-bold">All</div>
+            <div class="text-xl text-gray-900 dark:text-white text-center font-bold">All</div>
         </a>
 
     </div>
@@ -63,7 +63,7 @@
                             <div class="absolute top-0 right-0 w-4 h-4 bg-red-500"></div>
                         @endif
 
-                        <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-gray-800 rotate-45"></div>
+                        <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-white dark:bg-gray-800 rotate-45"></div>
                         <div class="text-xl text-yellow-500 font-bold">{{ $service->title }}</div>
                         <p class="max-w-sm py-6 text-sm">{{ $service->description }}</p>
                     </div>
