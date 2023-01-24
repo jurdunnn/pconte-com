@@ -53,7 +53,7 @@
     <div class="p-4 text-gray-600 dark:text-gray-200 py-12 select-none">
         <ul class="grid place-content-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             @foreach ($services as $service)
-                <li class="relative hover:scale-105 cursor-pointer text-gray-700 z-40 overflow-hidden">
+                <li class="relative hover:scale-105 shadow-2xl cursor-pointer text-gray-700 z-40 overflow-hidden">
                     <div class="relative bg-white dark:bg-gray-800 shadow-2xl dark:text-gray-100 h-56 py-8 px-8">
                         @if ($service->type === 1)
                         <div class="absolute top-0 right-0 w-4 h-4 bg-yellow-500"></div>
