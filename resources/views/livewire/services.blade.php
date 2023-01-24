@@ -51,9 +51,9 @@
     </div>
 
     <div class="p-4 text-gray-600 dark:text-gray-200 py-12 select-none">
-        <ul class="grid place-content-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <ul class="grid place-content-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             @foreach ($services as $service)
-                <li class="text-gray-700 z-50">
+                <li class="relative hover:scale-105 cursor-pointer text-gray-700 z-40 overflow-hidden">
                     <div class="relative bg-white dark:bg-gray-800 shadow-2xl dark:text-gray-100 h-56 py-8 px-8">
                         @if ($service->type === 1)
                         <div class="absolute top-0 right-0 w-4 h-4 bg-yellow-500"></div>
@@ -63,9 +63,10 @@
                             <div class="absolute top-0 right-0 w-4 h-4 bg-red-500"></div>
                         @endif
 
-                        <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-white dark:bg-gray-800 rotate-45"></div>
                         <div class="text-xl text-yellow-500 font-bold">{{ $service->title }}</div>
                         <p class="max-w-sm py-6 text-sm">{{ $service->description }}</p>
+
+                        <div class="absolute top-[6px] right-[2px] w-6 h-4 bg-white dark:bg-gray-800 rotate-45"></div>
                     </div>
                 </li>
             @endforeach
