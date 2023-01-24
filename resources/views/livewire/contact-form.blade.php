@@ -5,7 +5,7 @@
     <div class="relative flex sm:flex-row sm:justify-between">
         <div class="flex flex-wrap w-full lg:w-2/4 py-12">
             <div class="grow-0 shrink-0 basis-auto w-full lg:px-6 mb-12 xl:mb-0">
-                <div class="w-full md:max-w-xl lg:max-w-3xl mx-auto text-center md:text-left">
+                <div class="mr-auto text-left">
                     <h3 class="text-5xl font-bold text-yellow-500 pb-8 md:pb-0">Contact us</h3>
 
                     <p class="font-semibold leading-8 text-gray-500 dark:text-gray-300 dark:text-gray-200 text-md py-8">
