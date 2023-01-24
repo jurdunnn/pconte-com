@@ -42,7 +42,7 @@
         </main>
 
         @section('footer')
-            <a href="#footer" class="fixed md:hidden bottom-6 right-6">
+            <a href="#footer" class="fixed md:hidden bottom-6 right-6 z-40">
                 <div class="w-12 h-12 rounded-full shadow-lg bg-gray-700 dark:bg-gray-100 flex justify-center items-center">
                     <x-heroicon-s-arrow-small-down class="h-6 text-gray-100 dark:text-gray-700 hover:text-yellow-500" />
                 </div>
