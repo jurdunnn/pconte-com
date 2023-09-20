@@ -20,7 +20,7 @@ https://conte.electricalcare.net
             This is a laravel 9 project
         </li>
         <li>
-            I'm using Vite to build the project, though vite has become redundant as I am now serving the local site via valet.
+            I'm using Vite to build.
         </li>
     </ul>
 
